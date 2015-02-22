@@ -1,0 +1,28 @@
+@import 'bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap';
+@import 'bower_components/fontawesome/scss/font-awesome';
+
+html, body {
+  margin: 20px;
+}
+
+bs-example-navbar-collapse-1 {
+
+	margin-top: -15px;
+}
+
+img {
+	margin-top: -15px
+}
+
+.bio {
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+  -webkit-justify-content: center;
+}
+
+.bio .fellow  {
+
+	
+	
+	
+}
