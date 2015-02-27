@@ -7,6 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
 	this.resource('fellows', function() {
+	this.resource('fellow', {path: '/:fellow_id'});
 
 	});
 });
