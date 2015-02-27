@@ -1,0 +1,45 @@
+<%= form_for(@fellow) do |f| %>
+  <% if @fellow.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@fellow.errors.count, "error") %> prohibited this fellow from being saved:</h2>
+
+      <ul>
+      <% @fellow.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :image %><br>
+    <%= f.text_field :image %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :nonprofit %><br>
+    <%= f.text_field :nonprofit %>
+  </div>
+  <div class="field">
+    <%= f.label :benefactor %><br>
+    <%= f.text_field :benefactor %>
+  </div>
+  <div class="field">
+    <%= f.label :employer %><br>
+    <%= f.text_field :employer %>
+  </div>
+  <div class="field">
+    <%= f.label :metro %><br>
+    <%= f.text_field :metro %>
+  </div>
+  <div class="field">
+    <%= f.label :cohort %><br>
+    <%= f.text_field :cohort %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

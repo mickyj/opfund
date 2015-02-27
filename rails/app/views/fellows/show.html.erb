@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @fellow.image %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @fellow.name %>
+</p>
+
+<p>
+  <strong>Nonprofit:</strong>
+  <%= @fellow.nonprofit %>
+</p>
+
+<p>
+  <strong>Benefactor:</strong>
+  <%= @fellow.benefactor %>
+</p>
+
+<p>
+  <strong>Employer:</strong>
+  <%= @fellow.employer %>
+</p>
+
+<p>
+  <strong>Metro:</strong>
+  <%= @fellow.metro %>
+</p>
+
+<p>
+  <strong>Cohort:</strong>
+  <%= @fellow.cohort %>
+</p>
+
+<%= link_to 'Edit', edit_fellow_path(@fellow) %> |
+<%= link_to 'Back', fellows_path %>

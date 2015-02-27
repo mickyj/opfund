@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  name: MyString
+  nonprofit: MyString
+  benefactor: MyString
+  employer: MyString
+  metro: MyString
+  cohort: MyString
+
+two:
+  image: MyString
+  name: MyString
+  nonprofit: MyString
+  benefactor: MyString
+  employer: MyString
+  metro: MyString
+  cohort: MyString
