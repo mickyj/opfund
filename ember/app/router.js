@@ -6,10 +6,12 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-	this.resource('fellows', function() {
+  this.resource('fellows', function() {
 	this.resource('fellow', {path: '/:fellow_id'});
-
 	});
+  this.resource('fellowships', function() {
+  	this.resource('fellowship', {path: '/:fellowship_id'});	
+  });
 });
 
 export default Router;
